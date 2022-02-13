@@ -15,11 +15,12 @@
       <nav id="navbar" class="container">
         <header>JS Documentation</header>
         <ul>
-          <li><a class="nav-link" href="#introduction">Introduction</a></li>
-          <li><a class="nav-link" href="#what_you_should_already_know">What you should already know</a></li>
-          <li><a class="nav-link" href="#JavaScript_&_Java">JavaScript & Java</a></li>
-          <li><a class="nav-link" href="#hello_world">Hello world</a></li>
-          <li><a class="nav-link" href="#variables">Variables</a></li>
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+          <li><a class="nav-link" href="#JavaScript_and_Java">JavaScript & Java</a></li>
+          <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+          <li><a class="nav-link" href="#Variables">Variables</a></li>
+          <li><a class="nav-link" href="#Declaring_Variables">Declaring Variables</a></li>
         </ul>
       </nav>
     </div>
@@ -145,6 +146,48 @@
           </article>
 
         </section>
+
+        <section class="main-section" id="Declaring_Variables">
+          <header>Declaring variables</header>
+          <article>
+             <p>
+              You can declare a variable in three ways:
+             </p>
+             <p>
+              With the keyword var. For example,
+             </p>
+             <code>
+              var x = 42.
+             </code>
+             <p>
+              This syntax can be used to declare both local and global variables.
+             </p>
+             <p>
+              By simply assigning it a value. For example,
+             </p>
+             <code>
+              x = 42.
+             </code>
+             <p>
+              This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
+             </p>
+             <p>
+              With the keyword let. For example,
+             </p>
+             <code>
+              let y = 13.
+             </code>
+             <p>
+              This syntax can be used to declare a block scope local variable. See Variable scope below.
+             </p>
+             <p>Sum of two variables</p>
+             <code>
+               let a = 5; let b = 5;
+               let c = a + b;
+             </code>
+          </article>
+        </section>
+
       </main>
     </div>
   </div>
